@@ -13,15 +13,6 @@ proxies:
     password: "rQPJBVcqsW"
     udp: true
 
-  - name: "tw"
-    type: ss
-    server: stpg.catpaw2012.com
-    port: 4779
-    cipher: xchacha20-ietf-poly1305
-    password: "rQPJBVcqsW"
-    udp: true
-    
-
   - name: "hk"
     type: ss
     server: shkf.catpaw2012.com
