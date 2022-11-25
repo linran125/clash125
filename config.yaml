@@ -5,29 +5,29 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies: 
-  - name: "jp"
+  - name: jp
     type: ss
     server: sjb.catpaw2012.com
     port: 4779
     cipher: xchacha20-ietf-poly1305
-    password: "rQPJBVcqsW"
+    password: rQPJBVcqsW
     udp: true
 
-  - name: "tw"
+  - name: tw
     type: ss
     server: stpg.catpaw2012.com
     port: 4779
     cipher: xchacha20-ietf-poly1305
-    password: "rQPJBVcqsW"
+    password: rQPJBVcqsW
     udp: true
     
 
-  - name: "hk"
+  - name: hk
     type: ss
     server: shkf.catpaw2012.com
     port: 4779
     cipher: xchacha20-ietf-poly1305
-    password: "rQPJBVcqsW"
+    password: rQPJBVcqsW
     udp: true
 proxy-groups:
   - name: 🔰 节点选择
